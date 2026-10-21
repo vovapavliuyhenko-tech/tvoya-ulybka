@@ -1968,69 +1968,69 @@ a, button, label, summary { -webkit-tap-highlight-color: transparent; }
 }
 
 /* =========================================================
-   Фирменная тема клиники: терракотовый «Твоя улыбка»
+   Фирменная тема клиники: кофе с шампанским «Твоя улыбка»
    ========================================================= */
 .theme-brand {
-  --blue: #c4513f;
-  --blue-dark: #a84433;
-  --grad-opal: linear-gradient(100deg, #f0c4ba 0%, #db7462 50%, #c4513f 100%);
+  --blue: #9a7356;
+  --blue-dark: #85624a;
+  --grad-opal: linear-gradient(100deg, #e8d3c0 0%, #c09a78 50%, #9a7356 100%);
 }
-.theme-brand .btn--blue { box-shadow: 0 10px 24px -8px rgba(196, 81, 63, .6); }
-.theme-brand .btn--blue:hover { box-shadow: 0 14px 30px -8px rgba(196, 81, 63, .7); }
+.theme-brand .btn--blue { box-shadow: 0 10px 24px -8px rgba(154, 115, 86, .6); }
+.theme-brand .btn--blue:hover { box-shadow: 0 14px 30px -8px rgba(154, 115, 86, .7); }
 
 /* логотип */
 .logo__mark--sao { width: 30px; height: 25px; flex: none; }
-.logo__text--sao { font-size: 16px; font-weight: 500; letter-spacing: .01em; text-transform: none; color: #3a2a27; }
+.logo__text--sao { font-size: 16px; font-weight: 500; letter-spacing: .01em; text-transform: none; color: #3d2e25; }
 .logo__text--sao small { margin-top: 3px; font-family: var(--font); font-size: 8.5px; font-weight: 500; letter-spacing: .06em; color: var(--gray); }
 
-.theme-brand .hero__pill { background: linear-gradient(100deg, #fae6e1 0%, #e89a8b 50%, #fae6e1 100%); box-shadow: inset 0 -6px 12px rgba(196, 81, 63, .3), inset 0 6px 10px rgba(255, 255, 255, .7); }
+.theme-brand .hero__pill { background: linear-gradient(100deg, #f7eee6 0%, #cfb092 50%, #f7eee6 100%); box-shadow: inset 0 -6px 12px rgba(154, 115, 86, .3), inset 0 6px 10px rgba(255, 255, 255, .7); }
 
 /* карточки и плашки */
 .theme-brand .card--hero-main {
   background:
-    radial-gradient(120% 90% at 100% 100%, #f6d6cf 0%, rgba(246, 214, 207, 0) 55%),
-    linear-gradient(160deg, #3a2a27 0%, #a84433 45%, #d0604c 100%);
+    radial-gradient(120% 90% at 100% 100%, #f0e2d4 0%, rgba(240, 226, 212, 0) 55%),
+    linear-gradient(160deg, #3d2e25 0%, #85624a 45%, #a88262 100%);
 }
 .theme-brand .case,
 .theme-brand .cta {
   background:
-    radial-gradient(70% 70% at 100% 100%, #f6d6cf 0%, rgba(246, 214, 207, 0) 60%),
-    linear-gradient(160deg, #2f2220 0%, #9c3e2f 45%, #cc5a47 100%);
+    radial-gradient(70% 70% at 100% 100%, #f0e2d4 0%, rgba(240, 226, 212, 0) 60%),
+    linear-gradient(160deg, #2e231c 0%, #6f5240 45%, #a27b5d 100%);
 }
 .theme-brand .gallery__facts {
   background:
-    radial-gradient(90% 70% at 100% 100%, #f6d6cf 0%, rgba(246, 214, 207, 0) 60%),
-    linear-gradient(160deg, #2f2220 0%, #9c3e2f 50%, #cc5a47 100%);
+    radial-gradient(90% 70% at 100% 100%, #f0e2d4 0%, rgba(240, 226, 212, 0) 60%),
+    linear-gradient(160deg, #2e231c 0%, #6f5240 50%, #a27b5d 100%);
 }
-.theme-brand .visit__price { background: linear-gradient(170deg, rgba(58, 42, 39, .94) 0%, rgba(196, 81, 63, .92) 70%, rgba(235, 170, 155, .9) 100%); }
+.theme-brand .visit__price { background: linear-gradient(170deg, rgba(61, 46, 37, .94) 0%, rgba(154, 115, 86, .92) 70%, rgba(215, 190, 165, .9) 100%); }
 
 /* шаги «Первого визита» */
-.theme-brand .steps__fill { background: linear-gradient(180deg, #3a2a27 0%, #c4513f 60%, #f0c4ba 100%); }
-.theme-brand .steps__dot { box-shadow: 0 0 0 3px rgba(196, 81, 63, .5), 0 0 18px 6px rgba(196, 81, 63, .4); }
-.theme-brand .step.is-active .step__num { background: linear-gradient(180deg, #3a2a27 0%, #c4513f 70%, #f0c4ba 100%); box-shadow: 0 10px 22px -8px rgba(58, 42, 39, .7); }
-.theme-brand .step__num::after { border-color: rgba(196, 81, 63, .6); }
+.theme-brand .steps__fill { background: linear-gradient(180deg, #3d2e25 0%, #9a7356 60%, #e8d3c0 100%); }
+.theme-brand .steps__dot { box-shadow: 0 0 0 3px rgba(154, 115, 86, .5), 0 0 18px 6px rgba(154, 115, 86, .4); }
+.theme-brand .step.is-active .step__num { background: linear-gradient(180deg, #3d2e25 0%, #9a7356 70%, #e8d3c0 100%); box-shadow: 0 10px 22px -8px rgba(61, 46, 37, .7); }
+.theme-brand .step__num::after { border-color: rgba(154, 115, 86, .6); }
 .theme-brand .step--cta.is-active .step-cta {
   background:
-    radial-gradient(90% 120% at 100% 0%, rgba(246, 214, 207, .55) 0%, rgba(246, 214, 207, 0) 60%),
-    linear-gradient(160deg, #fdf6f4 0%, #f9e8e3 100%);
-  box-shadow: 0 24px 50px -30px rgba(58, 42, 39, .5);
+    radial-gradient(90% 120% at 100% 0%, rgba(240, 226, 212, .55) 0%, rgba(240, 226, 212, 0) 60%),
+    linear-gradient(160deg, #fcf8f4 0%, #f6ede4 100%);
+  box-shadow: 0 24px 50px -30px rgba(61, 46, 37, .5);
 }
 
 /* выпадающий список, cookie, документы */
-.theme-brand .select__opt.is-active { background: #fbede9; }
-.theme-brand .select__opt[aria-selected="true"] { color: #3a2a27; }
-.theme-brand .select__opt[aria-selected="true"]::after { background: linear-gradient(135deg, #c4513f, #f0c4ba); }
-.theme-brand .cookie__icon { background: linear-gradient(135deg, #c4513f, #f0c4ba); box-shadow: 0 8px 18px -8px rgba(196, 81, 63, .7); }
+.theme-brand .select__opt.is-active { background: #f8f1ea; }
+.theme-brand .select__opt[aria-selected="true"] { color: #3d2e25; }
+.theme-brand .select__opt[aria-selected="true"]::after { background: linear-gradient(135deg, #9a7356, #e8d3c0); }
+.theme-brand .cookie__icon { background: linear-gradient(135deg, #9a7356, #e8d3c0); box-shadow: 0 8px 18px -8px rgba(154, 115, 86, .7); }
 .theme-brand .cookie__text a,
 .theme-brand .legal__sec a,
-.theme-brand .legal__req a { color: #3a2a27; }
-.theme-brand .legal__sec h2 span { background: linear-gradient(180deg, #3a2a27 0%, #c4513f 70%, #f0c4ba 100%); }
-.theme-brand .legal__crumbs a:hover { color: #3a2a27; }
+.theme-brand .legal__req a { color: #3d2e25; }
+.theme-brand .legal__sec h2 span { background: linear-gradient(180deg, #3d2e25 0%, #9a7356 70%, #e8d3c0 100%); }
+.theme-brand .legal__crumbs a:hover { color: #3d2e25; }
 
 /* бегущая строка */
-.footer__mark--sao { fill: #db7462; width: .56em; height: .47em; }
-.theme-brand .footer__item b { background: linear-gradient(90deg, #f0c4ba 0%, #db7462 40%, #c4513f 75%, #f0c4ba 100%); -webkit-background-clip: text; background-clip: text; }
-.theme-brand .footer__item i { color: #f0c4ba; letter-spacing: .4em; }
+.footer__mark--sao { fill: #c09a78; width: .56em; height: .47em; }
+.theme-brand .footer__item b { background: linear-gradient(90deg, #e8d3c0 0%, #c09a78 40%, #9a7356 75%, #e8d3c0 100%); -webkit-background-clip: text; background-clip: text; }
+.theme-brand .footer__item i { color: #e8d3c0; letter-spacing: .4em; }
 
 @media (max-width: 600px) {
   .logo__mark--sao { width: 26px; height: 22px; }
@@ -2043,10 +2043,10 @@ a, button, label, summary { -webkit-tap-highlight-color: transparent; }
 }
 
 /* логотип «от А до Я» */
-.logo__mark--oay { width: 26px; height: 28px; flex: none; color: #a84433; }
-.logo__text--oay { font-family: Georgia, 'Times New Roman', serif; font-size: 18px; font-weight: 700; letter-spacing: .01em; text-transform: none; color: #3a2a27; }
+.logo__mark--oay { width: 26px; height: 28px; flex: none; color: #85624a; }
+.logo__text--oay { font-family: Georgia, 'Times New Roman', serif; font-size: 18px; font-weight: 700; letter-spacing: .01em; text-transform: none; color: #3d2e25; }
 .logo__text--oay small { margin-top: 3px; font-family: var(--font); font-size: 8.5px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--gray); }
-.footer__mark--oay { fill: none; color: #db7462; width: .5em; height: .56em; }
+.footer__mark--oay { fill: none; color: #c09a78; width: .5em; height: .56em; }
 .theme-brand .footer__item b { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; letter-spacing: .02em; }
 @media (max-width: 600px) {
   .logo__mark--oay { width: 22px; height: 24px; }
@@ -2056,11 +2056,11 @@ a, button, label, summary { -webkit-tap-highlight-color: transparent; }
 @media (max-width: 360px) { .logo__text--oay small { display: none; } }
 
 /* старые стили логотипа шаблона */
-.logo__mark--dk { width: 30px; height: 26px; flex: none; color: #c4513f; }
-.logo__text--dk { font-size: 17px; font-weight: 600; font-style: italic; letter-spacing: -.01em; text-transform: none; color: #a84433; }
+.logo__mark--dk { width: 30px; height: 26px; flex: none; color: #9a7356; }
+.logo__text--dk { font-size: 17px; font-weight: 600; font-style: italic; letter-spacing: -.01em; text-transform: none; color: #85624a; }
 .logo__text--dk em { font-style: italic; font-weight: 400; }
 .logo__text--dk small { margin-top: 3px; font-size: 8.5px; font-weight: 500; font-style: normal; letter-spacing: .14em; text-transform: uppercase; color: var(--gray); }
-.footer__mark--dk { color: #db7462; width: .58em; height: .5em; }
+.footer__mark--dk { color: #c09a78; width: .58em; height: .5em; }
 .theme-brand .footer__item b { font-family: var(--font); font-style: italic; font-weight: 600; }
 @media (max-width: 600px) {
   .logo__mark--dk { width: 26px; height: 22px; }
