@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="format-detection" content="telephone=no">
+  <title>Твоя улыбка — клиника эстетической стоматологии в Нижнем Новгороде</title>
+  <meta name="description" content="«Твоя улыбка» — клиника эстетической стоматологии в Нижнем Новгороде, ул. Пискунова, 3, корп. 4 (5 минут от Кремля): виниры E-max, имплантация, коронки из циркония, лечение под увеличением, гигиена и отбеливание ZOOM 4. Рейтинг 5,0 на Яндекс Картах.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=1">
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+  <link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js" crossorigin>
+  <link rel="modulepreload" href="opal3d-shapes.js">
+</head>
+<body class="theme-brand">
+
+<!-- ============ Шапка ============ -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo" aria-label="Твоя улыбка — на главную">
+      <img class="logo__img" src="img/logo.png" alt="Твоя улыбка — клиника эстетической стоматологии" width="540" height="232">
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#clinic">Клиника</a>
+      <a href="#doctors">Врачи</a>
+      <a href="#reviews">Отзывы</a>
+    </nav>
+    <div class="header__right">
+      <a href="tel:+79036044404" class="header__phone">+7 (903) 604-44-04</a>
+      <a href="#booking" class="btn btn--blue btn--sm">Записаться</a>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ Hero ============ -->
+  <section class="hero container">
+    <div class="hero__left">
+      <h1 class="hero__title reveal">
+        <span class="hero__pill" aria-hidden="true"></span>Красивые зубы<br>
+        <span class="nowrap">без страха <a href="#visit" class="btn-outline"><svg width="10" height="11" viewBox="0 0 10 11"><path d="M1.5 1.3v8.4L8.6 5.5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>Как проходит приём</a></span><br>
+        у Кремля
+      </h1>
+      <p class="hero__lead reveal">«Твоя улыбка» — клиника эстетической стоматологии в 5 минутах от Кремля: виниры E-max, имплантация, коронки из циркония, лечение под увеличением, гигиена и отбеливание ZOOM 4.</p>
+      <div class="hero__actions reveal">
+        <a href="#booking" class="btn btn--blue btn--lg">Записаться на приём <i class="arr"></i></a>
+        <a href="tel:+79036044404" class="btn btn--ghost btn--lg">
+          <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          Позвонить
+        </a>
+        <a href="#visit" class="hero__how"><svg width="10" height="11" viewBox="0 0 10 11" aria-hidden="true"><path d="M1.5 1.3v8.4L8.6 5.5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>Как проходит приём</a>
+      </div>
+      <div class="hero__bottom reveal">
+        <a class="hero__rating" href="https://yandex.ru/maps/org/tvoya_ulybka/224941327387/reviews/" target="_blank" rel="noopener">
+          <span class="hero__avatars" aria-hidden="true"><i style="--c1:#fbd8c0;--c2:#e8611f">К</i><i style="--c1:#f7d3df;--c2:#e27fa4">А</i><i style="--c1:#d6dcf6;--c2:#8d9de6">Т</i></span>
+          <span class="hero__rating-text"><b>5,0 <span class="hero__stars">★★★★★</span></b><span>172 отзыва на Яндекс Картах</span></span>
+        </a>
+        <ul class="hero__features">
+          <li>Без боли</li><li>Виниры</li><li>Импланты</li><li>У Кремля</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero__right">
+      <a href="#booking" class="card card--hero-main reveal">
+        <h2 class="card__title-lg">Виниры<br>E-max —<br>21 000 ₽</h2>
+        <div class="obj3d obj3d--hero-tooth" data-shape="tooth"><img data-src="img/o_tooth.webp" alt="" decoding="async"></div>
+        <p class="card__note">Цифровой дизайн улыбки — 3 900 ₽: покажем будущий результат на фото ещё до лечения.</p>
+        <span class="circle-btn circle-btn--lg"><i class="arr"></i></span>
+      </a>
+      <a href="#services" class="card card--hero-blue reveal">
+        <span class="chip">импланты</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d obj3d--bubble" data-shape="implant"><img data-src="img/o_implant.webp" alt="" decoding="async"></div>
+        <div class="card__bottom">
+          <h3 class="card__title-md">Имплант AnyOne<br>23 000 ₽</h3>
+          <p class="card__text">Коронка на импланте из циркония — от 29&nbsp;000&nbsp;₽.</p>
+        </div>
+      </a>
+      <a href="#reviews" class="card card--hero-green reveal">
+        <span class="chip">Яндекс Карты</span>
+        <div class="card__bottom">
+          <div class="counter">5,0</div>
+          <p class="card__text">Рейтинг по 172 отзывам пациентов.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ Услуги (цены — прайс клиники на Яндекс Картах) ============ -->
+  <section class="section container" id="services">
+    <div class="section__head">
+      <div>
+        <span class="label reveal">Услуги</span>
+        <h2 class="h2 reveal">Шесть направлений,<br><span class="muted">одна клиника</span></h2>
+      </div>
+      <p class="lead reveal">А ещё цифровой дизайн улыбки — 3 900 ₽, сканирование челюсти — 1 500 ₽ и отбеливание ZOOM 4 — 26 000 ₽.</p>
+    </div>
+
+    <div class="services">
+      <article class="service service--1 reveal">
+        <span class="service__num">01</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="implant"><img data-src="img/o_implant.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Имплантация</h3>
+          <p class="service__text">Импланты AnyOne и коронки из циркония —<br>комфортно даже с рвотным рефлексом.</p>
+        </div>
+        <div class="price"><b>23 000 ₽</b><span>имплант AnyOne</span></div>
+      </article>
+
+      <article class="service service--2 reveal">
+        <span class="service__num">02</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="star"><img data-src="img/o_star.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Виниры E-max</h3>
+          <p class="service__text">Голливудская улыбка — с цифровым дизайном заранее.</p>
+        </div>
+        <div class="price"><b>21 000 ₽</b><span>винир e-max</span></div>
+      </article>
+
+      <article class="service service--3 reveal">
+        <span class="service__num">03</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="veneer"><img data-src="img/o_pill.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Коронки из циркония</h3>
+          <p class="service__text">На импланты и свои зубы — стандарт и премиум.</p>
+        </div>
+        <div class="price"><b>от 29 000 ₽</b><span>коронка на импланте</span></div>
+      </article>
+
+      <article class="service service--4 reveal">
+        <span class="service__num">04</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="tooth"><img data-src="img/o_tooth.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Эстетическая реставрация</h3>
+          <p class="service__text">Восстановим скол или резец —<br>пломба не отличается от зуба.</p>
+        </div>
+        <div class="price"><b>5 500 ₽</b><span>реставрация</span></div>
+      </article>
+
+      <article class="service service--5 reveal">
+        <span class="service__num">05</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="lens"><img data-src="img/o_pill.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Лечение под увеличением</h3>
+          <p class="service__text">Кариес и каналы — тщательно и безболезненно.</p>
+        </div>
+        <div class="price"><b>2 000 ₽</b><span>увеличение, 1 зуб</span></div>
+      </article>
+
+      <article class="service service--6 reveal">
+        <span class="service__num">06</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="drop"><img data-src="img/o_drop.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Гигиена</h3>
+          <p class="service__text">Профчистка за 30 минут —<br>без налёта и камня.</p>
+        </div>
+        <div class="price"><b>3 900 ₽</b><span>профгигиена</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ До и после ============ -->
+  <!-- Фото «до/после» — иллюстрация из шаблона, замените на реальные работы клиники (img/*_before.webp, img/*_after.webp) -->
+  <section class="section container" id="cases">
+    <div class="section__head section__head--center-y">
+      <div>
+        <span class="label reveal">До и после</span>
+        <h2 class="h2 reveal">Как меняется<br><span class="muted">улыбка</span></h2>
+      </div>
+      <div class="tabs reveal" role="tablist" id="caseTabs">
+        <span class="tabs__bg" aria-hidden="true"></span>
+        <button class="tabs__btn is-active" role="tab" data-case="0">Винир</button>
+        <button class="tabs__btn" role="tab" data-case="1">Улыбка</button>
+      </div>
+    </div>
+
+    <div class="cases reveal">
+      <div class="compare" id="compare" style="--pos:50%">
+        <img class="compare__img compare__after" id="imgAfter" src="img/wh_after.webp" alt="После лечения" width="685" height="460" loading="lazy" decoding="async">
+        <img class="compare__img compare__before" id="imgBefore" src="img/wh_before.webp" alt="До лечения" width="685" height="460" loading="lazy" decoding="async">
+        <span class="compare__line"></span>
+        <button class="compare__handle" aria-label="Сдвинуть разделитель">
+          <svg width="18" height="14" viewBox="0 0 18 14"><path d="M6 1 1 7l5 6M12 1l5 6-5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <span class="tag tag--light compare__tag-l">До</span>
+        <span class="tag tag--dark compare__tag-r">После</span>
+      </div>
+
+      <div class="case" id="caseCard">
+        <span class="chip">кейс</span>
+        <div class="obj3d case__obj" data-shape="veneer" id="caseObj"><img data-src="img/o_pill.webp" alt="" decoding="async"></div>
+        <div class="case__content" id="caseContent">
+          <h3 class="case__title" id="caseTitle">Новый винир</h3>
+          <p class="case__text" id="caseText">Винир раскололся после другой клиники — Рамил Фамилович подробно всё объяснил и сделал его заново, качественно и быстро.</p>
+        </div>
+        <div class="case__stats">
+          <div class="stat"><span id="lbl1">Работа</span><b id="stVisits">Винир</b></div>
+          <div class="stat"><span id="lbl2">Итог</span><b id="stTerm">Быстро</b></div>
+          <div class="stat"><span id="lbl3">Врач</span><b id="stPrice">Бабаев Р.&nbsp;Ф.</b></div>
+        </div>
+        <div class="case__quote">
+          <p id="caseQuote">«Винир сделали заново очень качественно и быстро»</p>
+          <span id="caseAuthor">Пациентка, отзыв на Яндекс Картах</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Клиника (фото — карточка клиники на Яндекс Картах) ============ -->
+  <section class="section container" id="clinic">
+    <div class="section__head">
+      <div>
+        <span class="label reveal">Клиника</span>
+        <h2 class="h2 reveal">Уютно, спокойно<br><span class="muted">в сердце города</span></h2>
+      </div>
+      <p class="lead reveal">Нижний Новгород, ул. Пискунова, 3, корп. 4. Пациенты пишут: «Уютная стоматология в 5 минутах ходьбы от Кремля!»</p>
+    </div>
+
+    <div class="gallery reveal">
+      <figure class="gallery__item gallery__item--big">
+        <img src="img/tu_cabinet.webp" alt="Кабинет клиники «Твоя улыбка»" width="800" height="600" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Кабинет</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="img/tu_cabinet2.webp" alt="Стоматологические кресла" width="600" height="800" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Кресла</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="img/tu_fire.webp" alt="Экран с камином в кабинете" width="800" height="600" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Уют</figcaption>
+      </figure>
+      <figure class="gallery__item gallery__item--wide-m">
+        <img src="img/tu_smile.webp" alt="Улыбка после работы клиники" width="800" height="533" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Работа клиники</figcaption>
+      </figure>
+      <div class="gallery__facts">
+        <div><b>5,0</b><span>172 отзыва на Яндекс Картах</span></div>
+        <div><b>пн–сб</b><span>с 8:00 (сб — с 9:00) до 20:00</span></div>
+        <div><b>5 мин</b><span>пешком до Кремля</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Врачи (имена — из отзывов на Яндекс Картах) ============ -->
+  <!-- Фото врачей нет — стоят монограммы. Замените: <img src="img/doctor-....webp"> внутри .doctor__photo -->
+  <section class="section container" id="doctors">
+    <div class="section__head">
+      <div>
+        <span class="label reveal">Врачи</span>
+        <h2 class="h2 reveal">Врачи, которым<br><span class="muted">доверяют улыбку</span></h2>
+      </div>
+      <p class="lead reveal">«Одна из немногих стоматологий, которые хотят искренне помочь, а не просто продать» — пишут пациенты.</p>
+    </div>
+
+    <div class="doctors">
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#fae6e1;--g2:#c4513f">
+          <span class="doctor__mono">РБ</span>
+          <div class="doctor__bar"><span>Виниры и коронки</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Бабаев Рамил Фамилович</h3>
+        <p class="doctor__role">Главный врач · виниры, коронки, голливудская улыбка</p>
+      </article>
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#e1e4ea;--g2:#4a4f5a">
+          <span class="doctor__mono">ДГ</span>
+          <div class="doctor__bar"><span>Лечение и реставрация</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Горшков Даниил Александрович</h3>
+        <p class="doctor__role">Стоматолог · каналы, пломбы, реставрация</p>
+      </article>
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#f1cde0;--g2:#d99abd">
+          <span class="doctor__mono">АА</span>
+          <div class="doctor__bar"><span>Гигиена и лечение</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Алиев Азиз Интигамович</h3>
+        <p class="doctor__role">Стоматолог · чистка и лечение без боли</p>
+      </article>
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#d6dcf6;--g2:#8d9de6">
+          <span class="doctor__mono">ПВ</span>
+          <div class="doctor__bar"><span>Имплантация</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Пётр Васильевич</h3>
+        <p class="doctor__role">Хирург · имплантация</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ Первый визит ============ -->
+  <section class="section container visit" id="visit">
+    <div class="visit__media reveal">
+      <img src="img/tu_work.webp" alt="Врач «Твоя улыбка» за работой" width="600" height="800" loading="lazy" decoding="async">
+      <span class="tag tag--light visit__tag"><i class="dot"></i>Пискунова, 3, корп. 4</span>
+      <div class="visit__price">
+        <b>3 900 ₽</b>
+        <span>профгигиена за 30 минут</span>
+      </div>
+    </div>
+    <div class="visit__content">
+      <span class="label reveal">Первый визит</span>
+      <h2 class="h2 reveal">Сначала план и цена,<br><span class="muted">потом лечение</span></h2>
+      <ol class="steps" id="steps">
+        <li class="step">
+          <span class="step__num">01</span>
+          <h3>Звонок или заявка</h3>
+          <p>Пн, ср–пт с 8:00 до 20:00, сб с 9:00 до 20:00. Гибкое расписание — подберём удобное время.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">02</span>
+          <h3>Осмотр и снимок</h3>
+          <p>Снимок прямо в клинике — врач подробно объяснит, что происходит с зубом.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">03</span>
+          <h3>План и стоимость</h3>
+          <p>Предложим план лечения по доступной цене — без навязывания лишнего.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">04</span>
+          <h3>Лечение без боли</h3>
+          <p>Даже если вы боитесь стоматологов с детства — отнесёмся с пониманием.</p>
+        </li>
+        <li class="step step--cta">
+          <span class="step__num">05</span>
+          <div class="step-cta">
+            <h3>Ваш шаг — запись на приём</h3>
+            <p>Оставьте заявку или позвоните — подберём врача и удобное время.</p>
+            <div class="step-cta__actions">
+              <a href="#booking" class="btn btn--blue btn--lg">Записаться <i class="arr"></i></a>
+              <a href="tel:+79036044404" class="btn btn--ghost btn--lg">
+                <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                +7 (903) 604-44-04
+              </a>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ Отзывы (короткие цитаты с Яндекс Карт) ============ -->
+  <section class="section reviews" id="reviews">
+    <div class="container reviews__head">
+      <span class="label reveal">Отзывы</span>
+      <h2 class="h2 reveal">Что говорят<br><span class="muted">пациенты</span></h2>
+      <a class="rating reveal" href="https://yandex.ru/maps/org/tvoya_ulybka/224941327387/reviews/" target="_blank" rel="noopener">
+        <b>5,0</b><span class="rating__stars">★★★★★</span><span>172 отзыва на Яндекс Картах</span><i class="arr"></i>
+      </a>
+    </div>
+    <div class="marquee reveal">
+      <div class="marquee__track" data-dir="left">
+        <figure class="review"><blockquote>Уютная стоматология в 5 минутах ходьбы от Кремля!</blockquote><figcaption><i class="ava" style="--c1:#f6d6cf;--c2:#c4513f">Е</i><b>Екатерина</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Одна из немногих стоматологий, которые хотят искренне помочь, а не просто продать.</blockquote><figcaption><i class="ava" style="--c1:#f7d3df;--c2:#e27fa4">К</i><b>Кирилл</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Теперь у меня голливудская улыбка!</blockquote><figcaption><i class="ava" style="--c1:#a5e0e6;--c2:#6ec0cc">С</i><b>Сергей</b> · виниры</figcaption></figure>
+        <figure class="review"><blockquote>Процедура заняла всего 30 минут, но результат превзошёл все ожидания.</blockquote><figcaption><i class="ava" style="--c1:#f0c6f0;--c2:#d39ae0">А</i><b>Анна</b> · гигиена</figcaption></figure>
+        <figure class="review"><blockquote>Лечила зубы у Горшкова Даниила Александровича. Врач от Бога.</blockquote><figcaption><i class="ava" style="--c1:#fbd0d6;--c2:#f0a2ae">Е</i><b>Елена</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Это был комфортный поход к стоматологу.</blockquote><figcaption><i class="ava" style="--c1:#bfe3c9;--c2:#7cc495">В</i><b>Василий</b> · имплантация</figcaption></figure>
+      </div>
+      <div class="marquee__track" data-dir="right">
+        <figure class="review"><blockquote>Здесь ко мне отнеслись с пониманием моих страхов.</blockquote><figcaption><i class="ava" style="--c1:#a9d3f3;--c2:#6fa8dd">М</i><b>Марк</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Всей семьёй ходим, цены доступные, на ресепшн есть чай, кофе.</blockquote><figcaption><i class="ava" style="--c1:#d2b8f5;--c2:#a083e6">Ш</i><b>Шахин</b> · вся семья</figcaption></figure>
+        <figure class="review"><blockquote>Абсолютно безболезненно, результат очень обрадовал.</blockquote><figcaption><i class="ava" style="--c1:#b5ebc2;--c2:#73cc8c">Н</i><b>Намиг</b> · чистка</figcaption></figure>
+        <figure class="review"><blockquote>Гибкое расписание на запись. Удобное расположение. Хорошая цена.</blockquote><figcaption><i class="ava" style="--c1:#fbe0b8;--c2:#f0b875">Г</i><b>Глеб</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Врач грамотно рассказал и показал мои проблемы, предложил план лечения по доступной цене.</blockquote><figcaption><i class="ava" style="--c1:#c6d0f7;--c2:#8d9de6">Н</i><b>Никита</b> · план лечения</figcaption></figure>
+        <figure class="review"><blockquote>Залечил каналы и сделал новые пломбы, они выглядят очень естественно.</blockquote><figcaption><i class="ava" style="--c1:#f5c2d6;--c2:#e08aae">К</i><b>Катя</b> · лечение</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Запись ============ -->
+  <section class="section container" id="booking">
+    <div class="cta reveal">
+      <div class="cta__left">
+        <span class="chip">запись</span>
+        <h2 class="cta__title">Запишитесь<br>на приём<br>к стоматологу</h2>
+        <p class="cta__text">Оставьте телефон — администратор перезвонит в рабочее время и подберёт удобный день.</p>
+      </div>
+      <div class="obj3d cta__tooth" data-shape="tooth"><img data-src="img/o_tooth.webp" alt="" decoding="async"></div>
+      <form class="form" id="form" novalidate>
+        <label class="field">
+          <span>Имя</span>
+          <input type="text" name="name" placeholder="Как к вам обращаться" autocomplete="name" required>
+        </label>
+        <label class="field">
+          <span>Телефон</span>
+          <input type="tel" name="phone" id="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required>
+        </label>
+        <div class="field field--select select" id="topic">
+          <span class="field__label" id="topicLabel">Что беспокоит</span>
+          <button type="button" class="select__btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="topicLabel">
+            <span class="select__value">Болит зуб</span>
+            <svg class="field__chev" width="12" height="8" viewBox="0 0 12 8"><path d="m1 1.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <ul class="select__list" role="listbox" aria-labelledby="topicLabel">
+            <li class="select__opt" role="option" aria-selected="true">Болит зуб</li>
+            <li class="select__opt" role="option" aria-selected="false">Виниры и дизайн улыбки</li>
+            <li class="select__opt" role="option" aria-selected="false">Имплантация</li>
+            <li class="select__opt" role="option" aria-selected="false">Коронки</li>
+            <li class="select__opt" role="option" aria-selected="false">Реставрация</li>
+            <li class="select__opt" role="option" aria-selected="false">Гигиена и отбеливание</li>
+            <li class="select__opt" role="option" aria-selected="false">Нужно удалить зуб</li>
+            <li class="select__opt" role="option" aria-selected="false">Пока не знаю, нужен осмотр</li>
+          </ul>
+          <input type="hidden" name="topic" value="Болит зуб">
+        </div>
+        <label class="consent">
+          <input type="checkbox" name="consent" id="consent" required>
+          <span class="consent__box" aria-hidden="true"></span>
+          <span class="consent__text">Даю согласие на обработку персональных данных и соглашаюсь с <a href="privacy.html" target="_blank">политикой конфиденциальности</a></span>
+        </label>
+        <button type="submit" class="btn btn--white btn--block">Записаться <i class="arr"></i></button>
+        <p class="form__ok" id="formOk">Спасибо! Администратор скоро перезвонит.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ============ Подвал ============ -->
+<footer class="footer container">
+  <div class="footer__brand reveal"><img src="img/logo.png" alt="Твоя улыбка — клиника эстетической стоматологии" width="540" height="232"></div>
+  <div class="footer__cols">
+    <div><span>Адрес</span><p>Нижний Новгород,<br>ул. Пискунова, 3, корп. 4 · <a href="https://yandex.ru/maps/org/tvoya_ulybka/224941327387/" target="_blank" rel="noopener">маршрут ↗</a></p></div>
+    <div><span>Часы</span><p>пн, ср–пт 08:00–20:00<br>сб 09:00–20:00</p></div>
+    <div><span>Связь</span><p><a href="tel:+79036044404">+7 (903) 604-44-04</a><br><a href="https://wa.me/79036044404" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://t.me/+79036044404" target="_blank" rel="noopener">Telegram</a> · <a href="https://vk.ru/yousmilenn" target="_blank" rel="noopener">ВК</a></p></div>
+    <div><span>Разделы</span><p><a href="#services">Услуги</a> · <a href="#clinic">Клиника</a><br><a href="#doctors">Врачи</a> · <a href="#reviews">Отзывы</a></p></div>
+  </div>
+  <div class="footer__ticker" aria-hidden="true">
+    <div class="footer__track">
+      <span class="footer__item footer__item--logo"><img class="footer__logo" src="img/logo.png" alt=""><span class="footer__word"><i>ЭСТЕТИЧЕСКАЯ СТОМАТОЛОГИЯ · НИЖНИЙ НОВГОРОД</i></span></span>
+      <span class="footer__item footer__item--logo"><img class="footer__logo" src="img/logo.png" alt=""><span class="footer__word"><i>ЭСТЕТИЧЕСКАЯ СТОМАТОЛОГИЯ · НИЖНИЙ НОВГОРОД</i></span></span>
+      <span class="footer__item footer__item--logo"><img class="footer__logo" src="img/logo.png" alt=""><span class="footer__word"><i>ЭСТЕТИЧЕСКАЯ СТОМАТОЛОГИЯ · НИЖНИЙ НОВГОРОД</i></span></span>
+    </div>
+  </div>
+  <p class="footer__warn">Имеются противопоказания. Необходима консультация специалиста</p>
+  <div class="footer__bottom">
+    <span>© 2026 «Твоя улыбка», клиника эстетической стоматологии, Нижний Новгород</span>
+    <nav class="footer__legal" aria-label="Документы">
+      <a href="privacy.html">Политика конфиденциальности</a>
+      <a href="offer.html">Публичная оферта</a>
+      <a href="cookies.html">Cookie</a>
+    </nav>
+    <a class="dev-link" href="https://t.me/vladimir_nvrs" target="_blank" rel="noopener">
+      <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2l-11 6.9-4.7-1.5c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.3z"/></svg>
+      Разработчик
+    </a>
+  </div>
+</footer>
+
+<script src="common.js?v=1"></script>
+<script src="script.js?v=1"></script>
+<script type="module" src="opal3d.js"></script>
+</body>
+</html>
